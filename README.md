@@ -6,3 +6,15 @@ This project particularly focuses on connected graphs.
 - Generate IQP circuits for connected graphs with n nodes
 - Compute and store probability distributions over bitstrings
 - Analyze results (Hamming weight and multiplicities, TVD, etc.)
+
+## Stored data
+- The file IQP distributions for n nodes is pre loaded with the distribution values for theta in [0,pi/2] for n in [4,7]
+- The file n node connected graphs is pre loaded with the non isomorphic connected n node network x graphs for n in [4,7]
+- The file n node similarity data is pre loaded with the tvd (total variation distance) values for each graph in connected_graphs_n for n in [5,6]
+
+## Installation
+
+### Using conda
+```bash
+conda env create -f environment.yml
+conda activate quantum_env

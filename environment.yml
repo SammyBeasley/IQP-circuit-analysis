@@ -1,0 +1,7 @@
+name: quantum_env
+channels:
+  - defaults
+dependencies:
+  - pip
+  - ipykernel
+prefix: C:\Users\sammy\.conda\envs\quantum_env
